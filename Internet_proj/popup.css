@@ -1,0 +1,107 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h2{
+ /* margin-left: 294px;
+  margin-top: 7px;*/
+  text-align:center;
+  margin-top:12px;
+  margin-bottom: 8px;
+}
+h3{
+/*margin-left:82px;
+margin-bottom: 0px;
+margin-top: 7px;*/
+ text-align:center;
+  margin-top:12px;
+  margin-bottom: 8px;
+
+
+}
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  width: 618px;
+  height: 600px;
+  background-color: #b3edff;
+  
+  font-family: 'Lobster';
+  font-size:12px;
+}
+
+
+#suspendedlist,#Whitelistedlist
+{
+width:340px;
+height: 130px;
+border:1px solid black;
+margin-top:-6px;
+float:left;
+margin-left:10px;
+}
+#Whitelistedlist
+{
+width:340px;
+height: 130px;
+border:1px solid black;
+margin-top:6px;
+float:left;
+margin-left:10px;
+margin-bottom: 20px;
+}
+#Removedlist
+{
+width:340px;
+height: 130px;
+border:1px solid black;
+margin-top:0px;
+float:left;
+margin-left:10px;
+margin-bottom: 20px;
+}
+nav ul{height:88px; width:auto;font-size:14px;font-family:verdana; }
+nav ul li {}
+nav ul{overflow:hidden; overflow-y:scroll;}
+
+img{
+width:40px;
+height:35px;
+
+}
+button {
+     background:none!important;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+     float:left;
+     margin-top: 10px;
+    margin-left: 2px;
+  
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 16px;
+}

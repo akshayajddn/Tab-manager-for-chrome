@@ -1,0 +1,12 @@
+Done:
+whitelist tabs updation
+
+
+
+
+
+
+TODO
+1.on discard,discard all button click
+-->lists not getting updated
+2.multiple entries of same tab but not always-->need to check

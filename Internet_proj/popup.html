@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <h2>Memory Saver for Chrome</h2>
+    <title>Popup</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+</head>
+
+    <link href="popup.css" rel="stylesheet" type="text/css">
+
+    <script src="popup.js"></script>
+    <script src="alarms1.js"></script>
+  </head>
+  <body>
+    <!--div id="title"></div-->
+
+    
+
+    <h3>Suspended Tabs</h3>
+      <nav>
+        <ul id="ul_suspended">
+        </ul>
+      </nav>
+    
+<h3>Whitelisted Tabs</h3>
+      <nav>
+        <ul id="ul_whitelisted">   
+        </ul>
+      </nav>
+<h3>Removed Tabs</h3>
+      <nav>
+        <ul id="ul_removed">    
+        </ul>
+      </nav>
+
+
+
+
+    <!--<div id="tab-list"></div> -->
+    <div id="div2" style="clear: both;margin-left:20px;width:auto;margin-top:18px;height: 84px; " >
+     <button type="button" id="discardTab" style="float:left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-compressed"></span> Suspend This Tab</button>
+      <button id="discardall" type="button" style="margin-left:25px;float:left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-compressed"></span> Suspend Other Tabs</button>
+       <button type="button" id="tabWhiteList" style="clear: both; float: left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-plus-sign"></span>Whitelist This Tab</button>
+        <button type="button" id="removeTabWhiteList"  style="margin-left:16px;float:left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-minus-sign"></span> Remove From Whitelist</button> 
+         </div>
+    <!--a id="link" href="#tab-list" onclick="">Show windows and Tabs</a-->
+  <div style="height: 86;width: 50%;margin-left: 20px" >
+   <h4 style="float:left">Suspend After(secs):</h4><input  style="float:left;width:65px;height: 30px;margin-left:10px;margin-top: 7px; "class="form-control" type="number" value="15" id="suspendThreshold"></div>
+ <div style="height: 86;float:left;margin-left: 21px" >
+   <h4 style="float:left">Remove After(Tabs):</h4><input  style="float:left;width:65px;height: 30px;margin-left:10px;margin-top: 7px; "class="form-control" type="number" value="5" id="maxTabs"></div> 
+  <button type="button" id="setParameters"  style="margin-left:16px;float:left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon glyphicon-ok-sign"></span>Set</button>
+ 
+ <button type="button" id="setDefault"  style="margin-left:16px;float:left;" class="btn btn-default btn-lg"><span class="glyphicon glyphicon glyphicon-repeat"></span>Reset</button>      
+
+
+
+  </body>
+</html>

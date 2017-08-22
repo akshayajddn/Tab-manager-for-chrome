@@ -1,0 +1,15 @@
+{
+  "name": "Memory Saver for Chrome",
+  "version": "1.0",
+  "description": "Adds a browser action showing which tabs share the current tab's process.",
+  "permissions": [
+    "tabs","alarms", "chrome://favicon/*","notifications","http://*/","https://*/"],
+  "browser_action": {
+      "default_title": "Memory Saver for Chrome",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "background":{"scripts":["background.js","alarms1.js"]},
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js; object-src 'self'"
+}
